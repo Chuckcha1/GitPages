@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Исключение файлов IDE
+.idea/
+*.swp
+
+# Защита конфиденциальных данных
+.env
+config/credentials.yml
